@@ -1,0 +1,47 @@
+#container {
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(242, 243, 235);
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.bar {
+    width : 10px;
+    background-color : rgb(20, 1, 85);
+    margin: 1px;
+}
+
+button {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    width: 250px;
+    height: 40px;
+    font-size: 30px;
+    border: 2px solid rgb(20, 1, 85);
+    border-radius: 10px;
+    color: rgb(20, 1, 85);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 70px;
+    color: red;
+}
+
+label {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    color: rgb(20, 1, 85);
+}
+
+#speed {
+    background-color: rgb(20, 1, 85);
+    width: 250px;
+}

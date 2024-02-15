@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>Sorting Visualizer</title>
+    <link rel = "stylesheet" href = "style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap">
+
+</head>
+
+<body>
+    <h1>SORTING VISUALIZER</h1>
+    <div id = "container"></div>
+
+    <hr>
+
+    <div>
+        <button onClick = "init()">INIT</button>
+        <button onClick = "playBubbleSort()">BUBBLE SORT</button>
+        <button onClick = "playSelectionSort()">SELECTION SORT</button>
+
+    </div>
+
+    <div>
+        <label>Speed: </label>
+        <input type="range" id="speed" min="1" max="10" value="5" step="1" onchange="changeSpeed()">
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
